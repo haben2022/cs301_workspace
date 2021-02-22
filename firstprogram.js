@@ -10,3 +10,4 @@ function notMultipleOf3(arr){
     oldarr=[1,2,3,4,5,6,7,9]; 
     console.log(notMultipleOf3(oldarr));
     console.log('life has up and down');
+    let text="mahalaleel";
