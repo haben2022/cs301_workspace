@@ -1,0 +1,12 @@
+let b=5;
+let c=5;
+let s=b+c;
+console.log(s);
+const x=6;
+const y=8;
+let sum=x+y;
+console.log(sum);
+let x=4;
+let y=3;
+let sum=x+y;
+console.log(sum);
