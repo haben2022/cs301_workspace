@@ -90,9 +90,9 @@ else {
 }
 
 console.log('-------------------5-----------------------------');
-let age = prompt("enter child's age ");
+let age = +prompt("enter child's age ");
 let season = prompt("enter current season ");
-age = parseInt(age);
+
 let bedTime = "";
 if (age <= 5) {
     if (season === "summer" || season === "fall") {
