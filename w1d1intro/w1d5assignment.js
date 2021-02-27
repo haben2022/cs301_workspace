@@ -1,34 +1,34 @@
  const prompt=require('prompt-sync')();
-// function checkPrime(num){
-//     let i=2;
-//     let count=0;
-//     let output=false;
-// while (i<num) {
-//     if(num%i===0){
-//         count++;
+function checkPrime(num){
+    let i=2;
+    let count=0;
+    let output=false;
+while (i<num) {
+    if(num%i===0){
+        count++;
     
-//     }
-//     i++;
+    }
+    i++;
     
-// }
-// if(count===0){
-//     output=true;
-// }
-// return output;
+}
+if(count===0){
+    output=true;
+}
+return output;
     
-// }
-// let n=parseInt(prompt("please enter number :"));
-// console.log(checkPrime(n));
+}
+let n=parseInt(prompt("please enter number :"));
+console.log(checkPrime(n));
 
-// console.log('-------------------------------------------------------');
+console.log('-------------------------------------------------------');
 
-// function computarea(r){
-//     let area;
-//     area=Math.PI*(r*r);
-//     return area;
-// }
-// console.log(computarea(2));
-// console.log('-----------------------------------------------------');
+function computarea(r){
+    let area;
+    area=Math.PI*(r*r);
+    return area;
+}
+console.log(computarea(2));
+console.log('-----------------------------------------------------');
 
 function house_volume(h,w,d,s) {
    
